@@ -1,10 +1,34 @@
 #include <stdio.h>
-    int main(){
-    int x,y; 
-    printf("请输入长方形的宽和长，让我来帮你算算它的面积：");
-    scanf("%d %d",&x,&y);	
-    printf("长方形的面积是：%d",x*y);
-    	
-    return 0;	
-    }
+int main() {
+	int a,b;
+    printf("请输出两个整数：");
+	scanf("%d%d",&a,&b);
+	printf("他们的和是：%d\n",a+b);
+	if(a>=b) 
+	printf("他们的差是：%d\n",a-b);
+	else
+	printf("他们的差是：%d\n",b-a);
+	printf("他们的积是：%d\n",a*b);
+	if(a>=b)
+	printf("他们的商是：%d\n",a/b);
+	else
+	printf("他们的商是：%d\n",b/a);
+	return 0;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
     
+	 
